@@ -1,0 +1,216 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+.search {
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.img-container .img-footer {
+    position: absolute;
+    bottom: 0; left: 0;
+    padding: 0 10px;   
+
+    width: 100%;
+
+    color: #fff;
+    background: rgba(0,0,0,0.7);   
+}
+
+blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    background-color: #D3D3D3;
+    margin-top: 25px;
+    color:#808080;
+    width: 400px;
+    /*box-shadow: 2px 2px 2px 2px #E0E0E0;*/
+    
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+    
+    font-size: 12px;
+    margin-top: -65px;
+}
+
+.cons-image > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+ .cons-image ul li {
+    float: left;
+    text-align: center;
+    font-size: 10px;
+}
+
+.cons-image ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+    background: #d34836;
+    color: white;
+}
+
+/* Twitter */
+.fa-pinterest {
+    background: #c92228;
+    color: white;
+}
